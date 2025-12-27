@@ -17,6 +17,23 @@ public class A {
     
 }
 
+Use ternary operator to conditionally print a String if there is a boolean involved 
+public class A {
+    public static void main(String[] a)
+    {
+        String name= "Mayank";
+        int age=31;
+        boolean sdet=true;
+        
+        String role= sdet ? "SDET":"Some other role";
+        
+        System.out.println("Hi I am "+name+",aged "+age+" preparing for "+role);
+        
+    }
+
+    
+}
+
 
 // Explain why String is immutable and how it affects automation frameworks.
 
