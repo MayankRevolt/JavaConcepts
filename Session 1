@@ -1,0 +1,23 @@
+// Write a Java program to store:
+
+// Your name, age, and whether you’re preparing for SDET.
+// Print them in one sentence.
+
+public class A {
+    public static void main(String[] a)
+    {
+        String name= "Mayank";
+        int age=31;
+        boolean sdet=true;
+        
+        System.out.println("Hi I am "+name+",aged "+age+" preparing for "+sdet);
+        
+    }
+
+    
+}
+
+
+// Explain why String is immutable and how it affects automation frameworks.
+
+Because Strings use thread pool which basically prevents multiple operations to access it & thats why they are immutable (No man can you give me detailed answer for this)
